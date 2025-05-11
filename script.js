@@ -77,3 +77,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 3000);
     }
 });
+
+const instagramButton = document.getElementById('instagram-button');
+if (instagramButton) {
+    instagramButton.addEventListener('click', function() {
+        window.open('https://www.instagram.com/petflashofc/profilecard/?igsh=MWR1dHpoanoxejQ5eg==', '_blank');
+    });
+}
