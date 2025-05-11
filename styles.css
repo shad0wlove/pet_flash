@@ -510,3 +510,21 @@ section.products {
         font-size: 3.5rem;
     }
 }
+/* Instagram Button */
+.contact-button.instagram-button {
+    background-color: #E1306C;
+    margin-left: 0.5rem;
+}
+
+.contact-button.instagram-button:hover {
+    background-color: #C13568;
+}
+
+.footer-col a {
+    color: var(--color-white);
+    transition: color 0.2s;
+}
+
+.footer-col a:hover {
+    color: var(--color-yellow);
+}
