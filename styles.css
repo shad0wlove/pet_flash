@@ -528,3 +528,19 @@ section.products {
 .footer-col a:hover {
     color: var(--color-yellow);
 }
+
+.contact-item {
+    margin-bottom: 1.5rem;
+}
+
+
+.footer-col a {
+    display: inline-block; 
+    margin: 0.5rem 0; 
+}
+
+
+.footer-col p {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
